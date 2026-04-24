@@ -22,3 +22,10 @@ libtinyxml2.a
 xmltest
 vs/debug
 
+
+# wyvrnpm-generated — do not commit
+/build/
+/wyvrn_internal/
+/wyvrn.lock
+/CMakePresets.json
+/CMakeUserPresets.json
