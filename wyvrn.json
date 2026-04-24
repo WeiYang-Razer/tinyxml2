@@ -1,0 +1,21 @@
+{
+  "name": "tinyxml2",
+  "version": "11.0.0.0",
+  "schemaVersion": 2,
+  "kind": "StaticLib",
+  "description": "TODO: one-line description of tinyxml2",
+  "dependencies": {},
+  "build": {
+    "system": "cmake",
+    "configs": [
+      "Debug",
+      "Release",
+      "RelWithDebInfo",
+      "MinSizeRel"
+    ],
+    "configure": [
+      "-Dtinyxml2_BUILD_TESTING=OFF"
+    ],
+    "installDir": "install"
+  }
+}
